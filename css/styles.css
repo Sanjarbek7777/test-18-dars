@@ -1,0 +1,201 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after{
+  box-sizing:inherit;
+}
+
+body{
+  background: #EFFAFA;
+}
+
+.container{
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header{
+  background-image: url("../img/header-img.svg");
+  width: 100%;
+  height: 150px;
+  margin-bottom: 76px;
+}
+
+
+.photosnap{
+  border-left: 5px solid #5CA5A5;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  width: 1110px;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+.photosnap-left-border{
+  border-left: none;
+}
+
+.languages ul{
+  display: flex;
+  list-style: none;
+}
+
+.languages{
+  margin-right: 40px;
+}
+
+.right{
+  margin-right: 16px;
+}
+
+.full{
+  display: flex;
+}
+
+.photosnap-span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photosnap-text{
+  font-family: "Spartan" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5CA5A5;
+  margin-top: 36px;
+  margin-bottom: 0;
+}
+
+.photosnap-new{
+  font-family: "Spartan" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #5CA5A5;
+  border-radius: 12px;
+  margin-top: 32px;
+  margin-bottom: 0;
+  margin-left: 16px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.photosnap-featured{
+  font-family: "Spartan" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #2B3939;
+  border-radius: 12px;
+  margin-top: 32px;
+  margin-bottom: 0;
+  margin-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.photsnap-title a{
+  font-family: "Spartan" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2B3939;
+  text-decoration: none;
+  margin-left: 24px;
+  margin-top: 0;
+  margin-top: 8px;
+}
+
+.full{
+  font-family: "Spartan" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.115385px;
+  color: #7C8F8F;
+  margin-left: 24px;
+}
+
+.full-p{
+  margin: 0;
+  padding-bottom: 22px;
+}
+
+.left-p{
+  margin-left: 36px;
+}
+
+.photosnap-item{
+  font-family: "Spartan" sans-serif;
+  background: #5CA5A5;  mix-blend-mode: normal;
+   border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  padding: 4px 8px;
+  color: #044d4d;
+}
+
+
+.all{
+  margin-right: auto;
+}
+
+.photosnap-img{
+  padding-left: 40px;
+}
+
+.kick-content{
+  margin-left: 24px;
+}
+
+.content{
+  display: flex;
+
+}
+
+.site-section{
+  padding-bottom: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
